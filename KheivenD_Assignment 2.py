@@ -36,6 +36,7 @@ def analyze_log_file(filename):
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
+analyze_log_file("logfile.txt")
 
 print("\n# ===========================================")
 print("Question 2: Dynamic Exception Handling")
@@ -57,6 +58,7 @@ def evaluate_expression():
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
+evaluate_expression()
 
 print("\n# ===========================================")
 print("Question 3: File Merging and Sorting")
@@ -92,6 +94,7 @@ def merge_and_sort_files(file1, file2, output_file):
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
+merge_and_sort_files("file1.txt", "file2.txt", "merged_sorted.txt")
 
 print("\n# ===========================================")
 print("Question 4: Handling Complex Nested Data")
@@ -123,6 +126,7 @@ def process_student_scores():
     top_student = student_averages[0]
     print(f"\nTop Student: {top_student[0]} with an average score of {top_student[1]:.2f}")
 
+process_student_scores()
 
 print("\n# ===========================================")
 print("Question 5: Enhanced List Operations")
@@ -157,6 +161,7 @@ def process_numbers():
     print(f"Median: {median}")
     print(f"Mode: {mode}")
 
+process_numbers()
 
 print("\n# ===========================================")
 print("Question 6: Multi-File Search and Replace")
@@ -194,9 +199,4 @@ def search_and_replace(directory, search_str, replace_str):
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
-analyze_log_file("logfile.txt")
-evaluate_expression()
-merge_and_sort_files("file1.txt", "file2.txt", "merged_sorted.txt")
-process_student_scores()
-process_numbers()
 search_and_replace("C:/Users/kheiv/OneDrive/Documents/School/example_directory", "random text for assignment", "Not random text for assignment")
