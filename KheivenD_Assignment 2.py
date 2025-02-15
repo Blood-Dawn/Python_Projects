@@ -1,14 +1,14 @@
-# Assignment 2: File Handling, Exception Handling, and List Operations
-# Author: [Your Name]
-# Date: [Today's Date]
+"""""
+ Assignment 2
+ Kheiven D'Haiti
+ 2/14/2025
+
+"""""
 
 import os
 import statistics
 from collections import Counter
 
-# ===========================================
-# Question 1: Log File Analyzer
-# ===========================================
 print("\n# ===========================================")
 print("# Question 1: Log File Analyzer")
 print("# ===========================================")
